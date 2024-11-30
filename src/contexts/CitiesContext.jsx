@@ -101,4 +101,5 @@ const useCitiesContext = () => {
   const context = useContext(CitiesContext)
   return context
 }
+
 export { CitiesProvider, useCitiesContext }
