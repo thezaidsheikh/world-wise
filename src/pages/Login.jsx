@@ -12,7 +12,7 @@ export default function Login() {
   const navigate = useNavigate()
   console.log(user, isLoading)
   const [email, setEmail] = useState('jack@example.com')
-  const [password, setPassword] = useState('')
+  const [password, setPassword] = useState('qwerty')
 
   function handleSubmit(e) {
     e.preventDefault()
